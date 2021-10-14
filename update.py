@@ -5,12 +5,9 @@ from colorama import Fore
 
 
 
-os.system("cd ..")
-os.system("cd ..")
-os.system('cd')
-os.system("rm -rf wordlist_creator")
-os.system("git clone https://github.com/afridanon/wordlist_creator > /dev/null 2>&1")
-os.system("cd wordlist_creator")
+os.system("chmod +x *")
+os.system("bash update.sh")
+
 print(Fore.Yellow + "Updated Successfully")
 time.sleep(4)
 os.system("clear")
