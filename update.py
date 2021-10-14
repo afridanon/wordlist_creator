@@ -6,10 +6,12 @@ from colorama import Fore
 
 
 os.system("cd ..")
+os.system("cd ..")
+os.system('cd')
 os.system("rm -rf wordlist_creator")
-os.system("git clone https://github.com/afridanon/wordlist_creator")
+os.system("git clone https://github.com/afridanon/wordlist_creator > /dev/null 2>&1")
 os.system("cd wordlist_creator")
-print(Fore.YELLOW + "Updated Successfully")
+print(Fore.Yellow + "Updated Successfully")
 time.sleep(4)
 os.system("clear")
-os.system("python wordlist.py")
+os.system("python wodlist.py")
