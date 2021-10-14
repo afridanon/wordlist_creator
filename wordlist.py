@@ -13,7 +13,7 @@ def banner():
    \_/\_/ \___/|_|_\___/|____|___|___/ |_|  
    """
     print(Fore.RED + BANNER )
-    print(Fore.YELLOW + "                     AUTHOR :- SHAIK AFRID")
+    print(Fore.YELLOW + "                     AUTHOR :- 𝐒𝐇𝐀𝐈𝐊 𝐀𝐅𝐑𝐈𝐃")
 
 
 def bio():
