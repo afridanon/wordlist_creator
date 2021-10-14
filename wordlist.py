@@ -29,7 +29,7 @@ def bio():
         poss = ""
     main()
 def main():
-    wordlist_maker = "wordlist -m 6 -M 7 -0 passwords.txt "+name+dob+poss 
+    wordlist_maker = "wordlist -m 6 -M 7 -o passwords.txt "+name+dob+poss 
     print(Fore.CYAN + "Plese Wait Wordlist creating ....")
     os.system(wordlist_maker)
     print(Fore.MAGENTA + "Created successfully ....! passwords.txt")
