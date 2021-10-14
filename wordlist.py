@@ -17,7 +17,7 @@ def banner():
 
 
 def bio():
-    global name,dob,poss
+    global name,dob,pos
     name = input(Fore.BLUE + "Enter Victim Name:-")
     dob =  input(Fore.BLUE + "Enter Victim date Of Birth Year(ex:-2001):- ")
     print(Fore.YELLOW + "Do U Want Possible Hints press YES OR No")
