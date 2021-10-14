@@ -4,7 +4,4 @@ git clone https://github.com/afridanon/wordlist_creator
 cd wordlist_creator
 echo -e "\e[92m[\e[91m~\e[92m]\e[93m UPDATED SUCESSFULLY !\e[93m"
 sleep 4
-
-
-
-python wordlist.py
+exit
