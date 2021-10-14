@@ -17,5 +17,5 @@ if shutil.which('git'):
     time.sleep(4)
     os.system("python wordlist.py")
 else:
-    print("Please reclone TBomb Again")
+    print("Please reclone wordlist_creator Again")
     sys.exit()
