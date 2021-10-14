@@ -1,10 +1,8 @@
-import os
-import time
-from colorama import Fore
-
-
-
-
-os.system("chmod +x *")
-os.system("bash update.sh")
-os.system("cd")
+import shutil
+if shutil.which('git'):
+    os.system('git checkout . && git pull')
+    print('\n\t\tUpdated Successfull !!!!')
+    print('\tPlease Run The Script Again...')
+else:
+  print("Please reclone TBomb Again")
+   sys.exit()
