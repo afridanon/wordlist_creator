@@ -5,7 +5,7 @@ from colorama import Fore
 
 
 
-os.system("cd")
+os.system("cd ..")
 os.system("rm -rf wordlist_creator")
 os.system("git clone https://github.com/afridanon/wordlist_creator")
 os.system("cd wordlist_creator")
