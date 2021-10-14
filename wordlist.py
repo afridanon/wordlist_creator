@@ -23,7 +23,8 @@ def bio():
     print(Fore.YELLOW + "Do U Want Possible Hints press YES OR No")
     check = input(Fore.BLUE + "Enter Ur Option :-").lower()
     if check == "yes":
-        pos = 143123
+        poss = 143123
+        pos = str(poss)
     else:
         pos = ""
     main()
