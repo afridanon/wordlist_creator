@@ -1,3 +1,7 @@
+
+def depn():
+    os.system("pip install wordlist colorama")
+    os.system("clear")
 import os
 from colorama import init
 init(autoreset=True)
@@ -55,9 +59,7 @@ def ASKS():
         print("Thanks For Using Our Tool : )")
         time.sleep(2)
         sys.exit()
-def depn():
-    os.system("pip install wordlist colorama")
-    os.system("clear")
+
 if __name__ == "__main__":
     depn()
     banner()
