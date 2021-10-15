@@ -1,20 +1,11 @@
-
-
-
 import os
 import shutil
 import sys
 import time
 
-
-
-
-
-if __name__ == "__main__":
-    os.system("pip install colorama")
+def open():
     from colorama import Fore
-    
-    if shutil.which('git'):
+     if shutil.which('git'):
         print(Fore.YELLOW +" -->>   UPDATING THE SCRIPT   <<--")
         os.system('git checkout . && git pull')
         print(Fore.YELLOW + " ->  UPDATED SUCCESSFULLY RUN THE TOOL AGAIN  <-")
@@ -23,5 +14,15 @@ if __name__ == "__main__":
     else:
         print("Please reclone wordlist_creator Again")
         sys.exit()
+def dep():
+    os.system("pip install colorama")
+
+
+if __name__ == "__main__":
+    dep()
+    open()
+    
+    
+   
 
     
