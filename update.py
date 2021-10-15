@@ -1,13 +1,9 @@
-import os
-import shutil
-import sys
-import time
-from colorama import Fore
 
 
 
 
-
+def depe():
+    os.system(pip install colorama )
 
 
 if shutil.which('git'):
@@ -19,3 +15,11 @@ if shutil.which('git'):
 else:
     print("Please reclone wordlist_creator Again")
     sys.exit()
+if __name__ == "__main__":
+    depe()
+    import os
+    import shutil
+    import sys
+    import time
+    from colorama import Fore
+    
