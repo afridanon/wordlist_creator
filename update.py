@@ -8,8 +8,8 @@ import time
 def depe():
     os.system("pip install colorama")
 def modules():
-    
-    from colorama import Fore
+    global a
+   a =  from colorama import Fore
 
 
 
