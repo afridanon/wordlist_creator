@@ -7,15 +7,13 @@ import sys
 import time
 def depe():
     os.system("pip install colorama")
-def modules():
-    global a
-    a =  from colorama import Fore
+
 
 
 
 if __name__ == "__main__":
     depe()
-    modules()
+    from colorama import Fore
     if shutil.which('git'):
         print(Fore.YELLOW +" -->>   UPDATING THE SCRIPT   <<--")
         os.system('git checkout . && git pull')
