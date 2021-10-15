@@ -3,7 +3,7 @@
 
 
 def depe():
-    os.system(pip install colorama )
+    os.system("pip install colorama")
 
 
 if shutil.which('git'):
