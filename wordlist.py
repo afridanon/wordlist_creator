@@ -56,12 +56,13 @@ def ASKS():
         sys.exit()
 
 if __name__ == "__main__":
-    depn()
     import os
+    import time
+    import sys
+    depn()
+    
     from colorama import init
     init(autoreset=True)
     from colorama import Fore
-    import time
-    import sys
     banner()
     ASKS()
