@@ -2,12 +2,7 @@
 def depn():
     os.system("pip install wordlist colorama")
     os.system("clear")
-import os
-from colorama import init
-init(autoreset=True)
-from colorama import Fore
-import time
-import sys
+
 
 def banner():
     BANNER = """
@@ -62,5 +57,11 @@ def ASKS():
 
 if __name__ == "__main__":
     depn()
+    import os
+    from colorama import init
+    init(autoreset=True)
+    from colorama import Fore
+    import time
+    import sys
     banner()
     ASKS()
