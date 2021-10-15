@@ -1,14 +1,14 @@
 
 
 
-
+import os
+import shutil
+import sys
+import time
 def depe():
     os.system("pip install colorama")
 def modules():
-    import os
-    import shutil
-    import sys
-    import time
+    
     from colorama import Fore
 
 
