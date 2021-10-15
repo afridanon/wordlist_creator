@@ -9,7 +9,7 @@ def depe():
     os.system("pip install colorama")
 def modules():
     global a
-   a =  from colorama import Fore
+    a =  from colorama import Fore
 
 
 
