@@ -4,6 +4,12 @@
 
 def depe():
     os.system("pip install colorama")
+def modules():
+    import os
+    import shutil
+    import sys
+    import time
+    from colorama import Fore
 
 
 if shutil.which('git'):
@@ -17,9 +23,5 @@ else:
     sys.exit()
 if __name__ == "__main__":
     depe()
-    import os
-    import shutil
-    import sys
-    import time
-    from colorama import Fore
+
     
